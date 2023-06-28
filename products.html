@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Shopping - Product Details</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .img{
+      float: left;
+    }
+    .p{
+      float: right;
+    }
+    /* Additional custom styles can be added here */
+  </style>
+</head>
+<body>
+  <!-- Header section -->
+  <header class="bg-gray-900 text-white py-4" style="position: fixed; top: 0; width: 100vw;">
+    <div class="container mx-auto flex items-center justify-between px-4">
+      <h1 class="text-2xl font-bold">Online Shopping: <small style="color: rgb(194, 191, 191);">Products</small></h1>
+      <nav class="flex">
+        <a href="index.html" class="text-white hover:text-gray-300 px-4">Home</a>
+        <p class="as text-white px-4"></p>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Product details section -->
+  <section class="py-16">
+    <div class="container mx-auto m-auto">
+      <div class="a inline-block m-auto mt-6">
+        <img src="download (1).jpg" alt="Product Image" class="w-1/4 object-cover">
+        <div class="ml-0 mt-5">
+          <h2 class="text-2xl font-bold mb-4">TV</h2>
+          <p class="text-gray-600 mb-4">₹ 1,00,000</p>
+          <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo ut nisl vulputate euismod. Aenean nec iaculis magna. Fusce efficitur lectus a lorem tincidunt ultricies. Vestibulum nec dapibus dolor. Cras gravida, dolor non rhoncus malesuada, lacus magna ullamcorper nulla, vel bibendum neque nunc sit amet odio. Nullam sagittis lorem sed elit fringilla, at efficitur velit luctus. Praesent non ullamcorper purus.</p>
+          <button onclick="fun()" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+        </div>
+        <div class="a inline-block m-auto mt-6">
+          <img src="download (2).jpg" alt="Product Image" class="w-1/4 object-cover">
+          <div class="ml-0 mt-5">
+            <h2 class="text-2xl font-bold mb-4">Playstation</h2>
+            <p class="text-gray-600 mb-4">₹ 55,000</p>
+            <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo ut nisl vulputate euismod. Aenean nec iaculis magna. Fusce efficitur lectus a lorem tincidunt ultricies. Vestibulum nec dapibus dolor. Cras gravida, dolor non rhoncus malesuada, lacus magna ullamcorper nulla, vel bibendum neque nunc sit amet odio. Nullam sagittis lorem sed elit fringilla, at efficitur velit luctus. Praesent non ullamcorper purus.</p>
+            <button onclick="fun()" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+          </div>
+          <div class="a inline-block m-auto mt-6">
+            <img src="download (3).jpg" alt="Product Image" class="w-1/4 object-cover">
+            <div class="ml-0 mt-5">
+              <h2 class="text-2xl font-bold mb-4">Xbox</h2>
+              <p class="text-gray-600 mb-4">₹ 46,000</p>
+              <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo ut nisl vulputate euismod. Aenean nec iaculis magna. Fusce efficitur lectus a lorem tincidunt ultricies. Vestibulum nec dapibus dolor. Cras gravida, dolor non rhoncus malesuada, lacus magna ullamcorper nulla, vel bibendum neque nunc sit amet odio. Nullam sagittis lorem sed elit fringilla, at efficitur velit luctus. Praesent non ullamcorper purus.</p>
+              <button onclick="fun()" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+            </div>
+      </div>
+      </div>
+      <div class="a inline-block m-auto mt-6">
+        <img src="download (4).jpg" alt="Product Image" class="w-1/4 object-cover">
+        <div class="ml-0 mt-5">
+          <h2 class="text-2xl font-bold mb-4">GTA 5</h2>
+          <p class="text-gray-600 mb-4">₹2,567</p>
+          <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo ut nisl vulputate euismod. Aenean nec iaculis magna. Fusce efficitur lectus a lorem tincidunt ultricies. Vestibulum nec dapibus dolor. Cras gravida, dolor non rhoncus malesuada, lacus magna ullamcorper nulla, vel bibendum neque nunc sit amet odio. Nullam sagittis lorem sed elit fringilla, at efficitur velit luctus. Praesent non ullamcorper purus.</p>
+          <button onclick="fun()" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+        </div>
+        <div class="a inline-block m-auto mt-6">
+          <img src="download (5).jpg" alt="Product Image" class="w-1/4 object-cover">
+          <div class="ml-0 mt-5">
+            <h2 class="text-2xl font-bold mb-4">FiFA</h2>
+            <p class="text-gray-600 mb-4">₹ 5,000</p>
+            <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo ut nisl vulputate euismod. Aenean nec iaculis magna. Fusce efficitur lectus a lorem tincidunt ultricies. Vestibulum nec dapibus dolor. Cras gravida, dolor non rhoncus malesuada, lacus magna ullamcorper nulla, vel bibendum neque nunc sit amet odio. Nullam sagittis lorem sed elit fringilla, at efficitur velit luctus. Praesent non ullamcorper purus.</p>
+            <button onclick="fun()" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+          </div>
+          <div class="a inline-block m-auto mt-6">
+            <img src="download (6).jpg" alt="Product Image" class="w-1/4 object-cover">
+            <div class="ml-0 mt-5">
+              <h2 class="text-2xl font-bold mb-4">Nintendo</h2>
+              <p class="text-gray-600 mb-4">₹ 30,000</p>
+              <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo ut nisl vulputate euismod. Aenean nec iaculis magna. Fusce efficitur lectus a lorem tincidunt ultricies. Vestibulum nec dapibus dolor. Cras gravida, dolor non rhoncus malesuada, lacus magna ullamcorper nulla, vel bibendum neque nunc sit amet odio. Nullam sagittis lorem sed elit fringilla, at efficitur velit luctus. Praesent non ullamcorper purus.</p>
+              <button onclick="fun()" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+            </div>
+      </div>
+      </div>
+    </div>
+    <div class="a inline-block m-auto mt-6">
+      <img src="download (7).jpg" alt="Product Image" class="w-1/4 object-cover">
+      <div class="ml-0 mt-5">
+        <h2 class="text-2xl font-bold mb-4">SWORDIGO PC VERSION</h2>
+        <p class="text-gray-600 mb-4">₹ 10,000 </p>
+        <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo ut nisl vulputate euismod. Aenean nec iaculis magna. Fusce efficitur lectus a lorem tincidunt ultricies. Vestibulum nec dapibus dolor. Cras gravida, dolor non rhoncus malesuada, lacus magna ullamcorper nulla, vel bibendum neque nunc sit amet odio. Nullam sagittis lorem sed elit fringilla, at efficitur velit luctus. Praesent non ullamcorper purus.</p>
+        <button onclick="fun()" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+      </div>
+      <div class="a inline-block m-auto mt-6">
+        <img src="download (8).jpg" alt="Product Image" class="w-1/4 object-cover">
+        <div class="ml-0 mt-5">
+          <h2 class="text-2xl font-bold mb-4">VALORANT COINS 6000</h2>
+          <p class="text-gray-600 mb-4">₹ 20,000</p>
+          <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo ut nisl vulputate euismod. Aenean nec iaculis magna. Fusce efficitur lectus a lorem tincidunt ultricies. Vestibulum nec dapibus dolor. Cras gravida, dolor non rhoncus malesuada, lacus magna ullamcorper nulla, vel bibendum neque nunc sit amet odio. Nullam sagittis lorem sed elit fringilla, at efficitur velit luctus. Praesent non ullamcorper purus.</p>
+          <button onclick="fun()" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+        </div>
+        <div class="a inline-block m-auto mt-6">
+          <img src="download (9).jpg" alt="Product Image" class="w-1/4 object-cover">
+          <div class="ml-0 mt-5">
+            <h2 class="text-2xl font-bold mb-4">MINECRAFT BEDROCK EDITION (DELUXE ULTRA PREMIUM PRO MAX EDITION)</h2>
+            <p class="text-gray-600 mb-4">₹ 80,000</p>
+            <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo ut nisl vulputate euismod. Aenean nec iaculis magna. Fusce efficitur lectus a lorem tincidunt ultricies. Vestibulum nec dapibus dolor. Cras gravida, dolor non rhoncus malesuada, lacus magna ullamcorper nulla, vel bibendum neque nunc sit amet odio. Nullam sagittis lorem sed elit fringilla, at efficitur velit luctus. Praesent non ullamcorper purus.</p>
+            <button onclick="fun()" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Add to Cart</button>
+          </div>
+    </div>
+    </div>
+  </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 Online Shopping. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    let x = 0;
+    document.querySelector(".as").innerHTML = "Cart ("+x+")";
+    function fun() {
+      x++;
+      document.querySelector(".as").innerHTML = "Cart ("+x+")";
+    }
+  </script>
+</body>
+</html>
